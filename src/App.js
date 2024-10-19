@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const App = () =>{
+  return(
+    <>
+        <h1>This is app</h1>
+        <h2>Hello this is react router code</h2>
+    </>
   );
-}
+};
 
 export default App;
+
+// step1: install react router > npm install react-router-dom@6
+// Browser router is used to connect with react app we have to import browser router brfore using it

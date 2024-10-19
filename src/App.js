@@ -2,8 +2,7 @@
 const App = () =>{
   return(
     <>
-        <h1>This is app</h1>
-        <h2>Hello this is react router code</h2>
+        
     </>
   );
 };
